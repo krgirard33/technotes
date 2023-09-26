@@ -108,4 +108,8 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - [server.js] add app.use('/notes'
 - create controllers/notesController.js
 - create routes/noteRoutes.js
+- [terminal] Change mongoose 7 to mongoose 6.12.0 - npm install mongoose@6.12.0 - mongoose-sequence doesn't work with mongoose 7+
 ---
+
+### Lesson 5
+- [terminal] in technotes folder, npx create-react-app frontend
