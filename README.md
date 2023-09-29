@@ -121,4 +121,11 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - create DashLayout.js, & DashHeader.js, import them into App.js and add Route for them
 - [terminal] npm i @fortawesom/fontawesom-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 - create DashFooter.js
-
+- create src/features/auth
+- move Login.js to auth
+- create Welcome.js & update App.js to use it
+- create src/features/notes
+- create NotesList.js
+- src/features/users
+- create UsersList.js
+- update App.js to use them
