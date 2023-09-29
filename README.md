@@ -129,3 +129,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - src/features/users
 - create UsersList.js
 - update App.js to use them
+---
+
+### Lesson 6
+
