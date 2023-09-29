@@ -113,3 +113,12 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 
 ### Lesson 5
 - [terminal] in technotes folder, npx create-react-app frontend
+- [terminal] cd frontend, npm i react-router-dom
+- Update index.js with BrowserRouter, Routes, & Route to App
+- Update App.js with Routes, and Route to Layout
+- create src/components/Layout.js
+- create src/components/Public.js
+- create DashLayout.js, & DashHeader.js, import them into App.js and add Route for them
+- [terminal] npm i @fortawesom/fontawesom-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+- create DashFooter.js
+
