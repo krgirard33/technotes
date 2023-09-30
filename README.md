@@ -132,4 +132,11 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 ---
 
 ### Lesson 6
+- in frontend folder, npm i @reduxjs/toolkit react-redux
+- update index.css with provided code
+- create src/app/api/apiSlice.js
+- create src/app/store.js
+- update index.js to use them
+- create src/features/users/usersApiSlice.js
+- create src/features/notes/notesApiSlice.js
 
