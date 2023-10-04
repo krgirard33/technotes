@@ -17,7 +17,7 @@ export const notesApiSlice = apiSlice.injectEndpoints({
       validateStatus: (response, result) => {
         return response.status === 200 && !result.isError
       },
-      keepUnusedDataFor: 5,
+      // keepUnusedDataFor: 5, -- Kicks you out after 5 seconds if you do not have a active subscription. Default is 60 seconds
       transformResponse: responseData => {
         const loadedNotes = responseData.map(note => {
           note.id = note._id
