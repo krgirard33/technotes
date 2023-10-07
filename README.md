@@ -158,4 +158,8 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - in NotesList.js, add refresh to useGetNotesQuery
 - in store.js, add setupListeners
 - in Welcome.js, add links to add new user & note
+- create NewNotesForm.js
+- filled in NewNote.js
+- create EditNoteForm.js
+- filled in EditNote.js
 
