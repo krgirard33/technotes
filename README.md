@@ -152,4 +152,10 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - create NewNote.js & EditNote.js as placeholders
 - add Routes to App.js
 - create src/config/roles.js
-- 
+- create Prefetch.js
+- in App.js, wrap path dash in Prefetch
+- in UsersList.js, add refresh to useGetUsersQuery
+- in NotesList.js, add refresh to useGetNotesQuery
+- in store.js, add setupListeners
+- in Welcome.js, add links to add new user & note
+
