@@ -9,9 +9,13 @@ const NotesList = () => {
     isSuccess,
     isError,
     error
-  } = useGetNotesQuery()
+  } = useGetNotesQuery(undefined, {
+    pollingInterval: 15000, // 15 secs
+    refetchOnFocus: true, // if you click on a different window and then come back it refreshes
+    refetchOnMountOrArgChange: true // refresh on remount
+  });
 
-  let content
+  let content;
 
   if (isLoading) content = <p>Loading...</p>
 

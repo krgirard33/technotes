@@ -45,7 +45,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - npm run dev [starts in nodemon]
 - npm run start [starts in normal mode]
 
-### Lesson 1
+### Lesson 1 - MERN Stack Project - Backend
 - [terminal] npm i -y 
 - [terminal] npm i express
 - [terminal] npm i nodemon -D
@@ -65,7 +65,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - set up 404 routing in server.js
 ---
 
-### Lesson 2
+### Lesson 2 - Middleware in a MERN Stack Project 
 - [server.js] add app.use(express.json());
 - create logs & middleware folders
 - [terminal] npm i date-fns uuid
@@ -83,7 +83,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - [server.js] add cors, corsOptions, app.use(cors(corsOptions));
 ---
 
-### Lesson 3
+### Lesson 3 - MongoDB MERN Stack Tutorial
 - [terminal] npm i dotenv
 - create .env
 - add .env on gitignore
@@ -97,7 +97,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - [server.js] add connectDB, mongoose, logEvents, mongoose.connection.once & mongoose.connection.on
 ---
 
-### Lesson 4
+### Lesson 4 - MERN API Controllers & Routers 
 - [server.js] add app.use('/users'
 - create controllers/userController.js
 - create routes/userRoutes.js
@@ -111,7 +111,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - [terminal] Change mongoose 7 to mongoose 6.12.0 - npm install mongoose@6.12.0 - mongoose-sequence doesn't work with mongoose 7+
 ---
 
-### Lesson 5
+### Lesson 5 - React.js App Project
 - [terminal] in technotes folder, npx create-react-app frontend
 - [terminal] cd frontend, npm i react-router-dom
 - Update index.js with BrowserRouter, Routes, & Route to App
@@ -131,7 +131,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - update App.js to use them
 ---
 
-### Lesson 6
+### Lesson 6 - MERN Stack Project with React Redux and RTK Query
 - in frontend folder, npm i @reduxjs/toolkit react-redux
 - update index.css with provided code
 - create src/app/api/apiSlice.js
@@ -140,3 +140,26 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - create src/features/users/usersApiSlice.js
 - create src/features/notes/notesApiSlice.js
 - fill out UsersList.js
+- create User.js
+- fill out Notes.js
+- create Notes.js
+---
+
+### Lesson 7 - React Forms with Redux & RTK Query 
+- update usersApiSlice.js with addNewUser, updateUser, deleteUser
+- update notesApiSlice.js with addNewNote, updateNote, deleteNote
+- create NewUserForm.js & EditUser.js as placeholders
+- create NewNote.js & EditNote.js as placeholders
+- add Routes to App.js
+- create src/config/roles.js
+- create Prefetch.js
+- in App.js, wrap path dash in Prefetch
+- in UsersList.js, add refresh to useGetUsersQuery
+- in NotesList.js, add refresh to useGetNotesQuery
+- in store.js, add setupListeners
+- in Welcome.js, add links to add new user & note
+- create NewNotesForm.js
+- filled in NewNote.js
+- create EditNoteForm.js
+- filled in EditNote.js
+
