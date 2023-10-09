@@ -162,4 +162,22 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - filled in NewNote.js
 - create EditNoteForm.js
 - filled in EditNote.js
+---
 
+### Lesson 8 - MERN Stack Authentication with JWT Access, Refresh Tokens, Cookies
+- add app.use('/auth' to server.js
+- create backend/routes/authRoutes.js
+- [terminal] in backend 'npm i express-rate-limit'
+- create backend/middleware/loginLimiter.js
+- update authRoutes to have router.route('/').post(loginLimiter)
+- create controller/authController.js
+- [terminal] in backend 'npm i jsonwebtoken'
+- update authRoutes to have router.route('/').post(loginLimiter, authController.login); & router.route('/refresh').get(authController.refresh); & router.route('/logout').post(authController.logout);
+*
+- add ACCESS_TOKEN_SECRET= & REFRESH_TOKEN_SECRET= to .env
+- [terminal] node
+- [terminal] require('crypto').randomBytes(64).toString('hex') gets you a random code. You need one for each TOKEN_SECRET
+- create backend/controllers/authController.js
+- create backend/middleware/verifyJWT.js
+- noteRoutes.js & userRoutes.js - const verifyJWT & router.use(verifyJWT);
+- 
