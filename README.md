@@ -46,7 +46,7 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - npm run start [starts in normal mode]
 
 ### Lesson 1 - MERN Stack Project - Backend
-- [terminal] npm i -y 
+- [terminal] npm init -y 
 - [terminal] npm i express
 - [terminal] npm i nodemon -D
 - open browser to http://localhost:3500/
@@ -180,4 +180,6 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - create backend/controllers/authController.js
 - create backend/middleware/verifyJWT.js
 - noteRoutes.js & userRoutes.js - const verifyJWT & router.use(verifyJWT);
-- 
+---
+
+### Lesson 9 -
