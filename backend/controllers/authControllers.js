@@ -10,13 +10,13 @@ const login = asyncHandler(async (req, res) => {
   const { username, password } = req.body
 
   if (!username || !password) {
-    return res.status(400).json({ message: 'All fields are required' })
+    return res.status(400).json({ message: 'All fields are required' });
   }
 
   const foundUser = await User.findOne({ username }).exec();
 
   if (!foundUser || !foundUser.active) {
-    return res.status(401).json({ message: 'Unauthorized' })
+    return res.status(401).json({ message: 'Unauthorized' });
   }
 
   const match = await bcrypt.compare(password, foundUser.password);

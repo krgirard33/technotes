@@ -173,3 +173,11 @@ All Resources for this MERN Stack Project: https://github.com/gitdagray/mern_sta
 - create controller/authController.js
 - [terminal] in backend 'npm i jsonwebtoken'
 - update authRoutes to have router.route('/').post(loginLimiter, authController.login); & router.route('/refresh').get(authController.refresh); & router.route('/logout').post(authController.logout);
+*
+- add ACCESS_TOKEN_SECRET= & REFRESH_TOKEN_SECRET= to .env
+- [terminal] node
+- [terminal] require('crypto').randomBytes(64).toString('hex') gets you a random code. You need one for each TOKEN_SECRET
+- create backend/controllers/authController.js
+- create backend/middleware/verifyJWT.js
+- noteRoutes.js & userRoutes.js - const verifyJWT & router.use(verifyJWT);
+- 
